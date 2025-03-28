@@ -12,9 +12,9 @@ const Footer = () => {
 
         {/* Right: Legal Links */}
         <div className="flex space-x-6 text-sm">
-          <a href="#terms" className="hover:underline">Terms & Conditions</a>
-          <a href="#privacy" className="hover:underline">Privacy Policy</a>
-          <a href="#trust" className="hover:underline">Trust & Safety</a>
+          <a href="/terms" className="hover:underline">Terms & Conditions</a>
+          <a href="/privacy" className="hover:underline">Privacy Policy</a>
+          <a href="/trust" className="hover:underline">Trust & Safety</a>
         </div>
       </div>
 
@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="text-center mt-8 text-sm text-white/80">
         Built by{' '}
         <a
-          href="https://sarvajithkarun.me"
+          href="https://sarvajithkarun.com"
           target="_blank"
           rel="noopener noreferrer"
           className="underline hover:text-white"

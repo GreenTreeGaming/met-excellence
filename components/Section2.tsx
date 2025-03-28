@@ -3,7 +3,7 @@ import { BookOpen, Users, Lightbulb } from 'lucide-react'
 
 const Section2 = () => {
   return (
-    <section className="bg-[#f9fcff] py-20 px-6 relative overflow-hidden">
+    <section className="bg-gradient-to-b from-[#e6f0ff] to-[#d8e7ff] py-20 px-6 relative overflow-hidden">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-[#2563eb] mb-6">
           What We Offer

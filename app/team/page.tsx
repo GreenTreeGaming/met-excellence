@@ -239,7 +239,7 @@ const TeamPage = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mt-24 bg-[#edf5f9] py-14 px-6 rounded-xl"
+        className="bg-gradient-to-b from-[#e6f0ff] to-[#d8e7ff] py-20 px-6 relative overflow-hidden"
       >
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-[#2563eb] mb-3">

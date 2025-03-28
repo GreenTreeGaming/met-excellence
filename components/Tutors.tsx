@@ -29,7 +29,7 @@ const Tutors = () => {
   const { ref, inView } = useInView({ triggerOnce: true })
 
   return (
-    <section className="relative bg-[#f9fcff] py-24 px-6 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-[#e3eeff] to-[#d4e7ff] py-24 px-6 overflow-hidden">
       {/* Fun Gradient Blobs */}
       <div className="absolute top-[-100px] left-[-120px] w-[300px] h-[300px] bg-[#cce7ff] rounded-full opacity-30 blur-3xl z-0 animate-pulse-slow" />
       <div className="absolute bottom-[-120px] right-[-120px] w-[300px] h-[300px] bg-[#d4d9ff] rounded-full opacity-30 blur-3xl z-0 animate-pulse-slow" />
@@ -74,10 +74,11 @@ const Tutors = () => {
           </a>
           <a
             href="/team"
-            className="bg-gray-200 text-[#2563eb] px-6 py-3 rounded-full font-semibold hover:bg-gray-300 transition transform hover:scale-105"
+            className="border border-[#2563eb] text-[#2563eb] px-6 py-3 rounded-full font-semibold bg-white hover:bg-[#eff6ff] transition transform hover:scale-105"
           >
             View All Tutors
           </a>
+
         </div>
 
         {/* Stats Section */}
