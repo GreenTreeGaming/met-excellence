@@ -81,10 +81,10 @@ const page = () => {
               className="bg-[#f9fcff] p-6 rounded-xl border hover:shadow-xl hover:-translate-y-1 transform transition-all"
             >
               {item.icon}
-              <h3 className="text-xl font-semibold text-[#2563eb] mb-1">
+              <h3 className="text-xl font-semibold text-[#2563eb] mb-1 cursor-default">
                 {item.title}
               </h3>
-              <p className="text-gray-600 text-sm">{item.desc}</p>
+              <p className="text-gray-600 text-sm cursor-default">{item.desc}</p>
             </motion.div>
           ))}
         </div>
@@ -96,24 +96,24 @@ const page = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="text-center"
+        className="text-center bg-[#f0f6ff] py-16 px-8 rounded-2xl max-w-4xl mx-auto shadow-md"
       >
-        <h2 className="text-2xl font-bold text-[#2563eb] mb-4">
+        <h2 className="text-3xl font-bold text-[#2563eb] mb-4">
           Ready to Join?
         </h2>
-        <p className="text-gray-700 mb-6 max-w-xl mx-auto text-sm sm:text-base">
+        <p className="text-gray-700 mb-8 max-w-2xl mx-auto text-base sm:text-lg">
           We’re always excited to welcome new tutors, leaders, and creatives to the MET team. Apply below and we’ll follow up!
         </p>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSc4y_cO4y4v5_MI474o9HFHkreYgK67cPZQO6Ns7b9yj-Z7yw/viewform"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 bg-[#2563eb] text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition transform hover:scale-105"
+          className="inline-flex items-center gap-2 bg-[#2563eb] text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transition transform hover:scale-105"
         >
-          Apply Now <ArrowRight className="w-4 h-4" />
+          Apply Now <ArrowRight className="w-5 h-5" />
         </a>
       </motion.div>
-    </section>
+          </section>
   )
 }
 

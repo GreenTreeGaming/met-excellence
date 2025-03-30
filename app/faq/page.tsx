@@ -90,7 +90,7 @@ const FAQPage = () => {
                     exit={{ opacity: 0, height: 0 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <div className="px-6 pb-5 pt-1 text-gray-700 text-sm leading-relaxed">
+                    <div className="px-6 pb-5 pt-1 text-[#374151] text-lg font-semibold leading-relaxed">
                       {faq.answer}
                     </div>
                   </motion.div>
