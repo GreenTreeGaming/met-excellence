@@ -128,6 +128,12 @@ const team: {
         image: "/team/jason_lai.webp",
         email: "laiyij000@isd284.com",
       },
+      {
+        name: "Mohan Atkuri",
+        role: "Technology Officer",
+        image: "/team/mohan_atkuri.webp",
+        email: "atkurmoh000@isd284.com",
+      },
     ],
   },
   {
