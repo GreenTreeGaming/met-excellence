@@ -7,22 +7,22 @@ import { useInView } from 'react-intersection-observer'
 
 const testimonials = [
   {
-    name: 'Sofia M.',
-    role: 'Student',
-    quote:
-      'MET Excellence helped me finally understand math — the tutors made it fun and easy!',
-  },
-  {
-    name: 'Daniel K.',
+    name: 'Xin Ran',
     role: 'Parent',
     quote:
-      'I’m so grateful for this program. My daughter looks forward to every class!',
+      'Thanks to the organizers, the children gained a lot, and the teachers were very organized and patient. 👍',
   },
   {
-    name: 'Reema P.',
-    role: 'Tutor',
+    name: 'Mi Sha',
+    role: 'Parent',
     quote:
-      'Volunteering here has been the most rewarding experience of my high school journey.',
+      'The first thing my son said when he got in the car was that it was worth driving 45 minutes. Thank you again. 🙏',
+  },
+  {
+    name: 'Sharon',
+    role: 'Parent',
+    quote:
+      'Thank you so much for organizing this event! My child really enjoys it and is already looking forward to next Sunday.',
   },
 ]
 

@@ -18,17 +18,20 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Line */}
-      <div className="text-center mt-8 text-sm text-white/80">
-        Built by{' '}
-        <a
-          href="https://sarvajithkarun.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline hover:text-white"
-        >
-          Sarvajith Karun
-        </a>
+      {/* Bottom Info */}
+      <div className="text-center mt-8 text-sm text-white/80 space-y-1">
+        <p>MET Excellence is a registered nonprofit organization in the state of Minnesota.</p>
+        <p>
+          Built by{' '}
+          <a
+            href="https://sarvajithkarun.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-white"
+          >
+            Sarvajith Karun
+          </a>
+        </p>
       </div>
     </footer>
   )

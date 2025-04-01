@@ -249,7 +249,7 @@ const TeamPage = () => {
             We're always looking for passionate educators, organizers, and creators to join our mission.
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc4y_cO4y4v5_MI474o9HFHkreYgK67cPZQO6Ns7b9yj-Z7yw/viewform"
+            href="/join-us"
             target="_blank"
             className="inline-block bg-[#2563eb] text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition transform hover:scale-105"
           >

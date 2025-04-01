@@ -14,7 +14,7 @@ const classes: {
 }[] = [
   {
     title: 'UMTYMP Prep',
-    tutor: 'Eric Yang, Kevin Qiu, Aaron Zou, Aditya Nair',
+    tutor: 'Kevin Qiu, Aditya Nair',
     level: 'Advanced',
     description: 'We all know how wonderful the UMTYMP program is, but we also know that the entrance exam is very tough. Ensure that you pass the entrance exam by signing up for this exam preparation class! We will go over test taking strategy, tricks to save you time and effort, and much more!',
     image: 'umtymp.webp',
@@ -24,9 +24,9 @@ const classes: {
   },
   {
     title: 'Chess',
-    tutor: 'Eric Yang',
-    level: 'Beginner–Intermediate',
-    description: '[LOCATIONS VARY FOR CHESS. Check emails and wechat for the correct location.] Instruction and Tournaments. Beginner to Advanced level. Tournaments held! Group instruction and ELO system. All ages welcome!',
+    tutor: 'Eric Yang, Evan Huss, Felix Cheng',
+    level: 'Beginner–Advanced',
+    description: 'Learn, play, and grow with MET Chess! Our in-person classes offer engaging instruction and live tournaments for all levels — from beginner to advanced. With an ELO-style ranking system, group lessons, and exciting competitions, students build critical thinking and strategic skills in a fun, supportive environment. [Locations vary — check email and WeChat for updates.]',
     image: 'chess.webp',
     status: 'in-person',
     learnMoreLink: '/chess',
@@ -35,7 +35,7 @@ const classes: {
   {
     title: 'Intro to Python',
     tutor: 'Aaron Zou and Mohan Atkuri',
-    level: 'Intermediate',
+    level: 'Beginner',
     description: 'This is a beginner level class on Python, the programming language. All ages are welcome, and no prior programming experience is required. Get familiar with Python syntax and computer science ideas. We will build a mini-project using Python towards the end of the course and give real-world insight into the usefulness of computer science!',
     image: 'python.webp',
     status: 'online',
@@ -145,7 +145,7 @@ const page = () => {
                   <div>
                     <h2 className="text-xl font-semibold text-[#2563eb] mb-2">{cls.title}</h2>
                     <p className="text-sm text-gray-500 mb-3">
-                      <span className="font-medium text-gray-700">Tutor:</span> {cls.tutor}
+                      <span className="font-medium text-gray-700">Tutors:</span> {cls.tutor}
                     </p>
                     <p className="text-gray-600 text-sm mb-4">{cls.description}</p>
                     <span className="inline-block bg-blue-100 text-blue-700 px-3 py-1 text-xs rounded-full mb-4">
@@ -201,7 +201,7 @@ const page = () => {
             Join MET Excellence as a tutor or team member and help students reach their full potential.
           </p>
           <a
-            href="#join"
+            href="/join-us"
             className="inline-block bg-[#2563eb] text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition transform hover:scale-105"
           >
             Join Our Team →

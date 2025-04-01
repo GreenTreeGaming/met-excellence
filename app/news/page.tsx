@@ -7,22 +7,15 @@ const updates = [
   {
     title: "Spring 2025 Classes Launched!",
     description:
-      "We’ve officially launched our Spring 2025 sessions — including new offerings in Chemistry, Python, and UMTYMP Prep!",
+      "We’ve officially launched our Spring 2025 sessions — including new offerings in Chess, Python, and UMTYMP Prep!",
     date: "March 1, 2025",
     icon: <BookOpenCheck className="w-6 h-6 text-[#2563eb]" />,
-  },
-  {
-    title: "Winter Chess Tournament Results 🏆",
-    description:
-      "Huge congrats to all participants in our Winter Chess Tournament. Check out highlights and leaderboard results.",
-    date: "February 20, 2025",
-    icon: <CalendarDays className="w-6 h-6 text-[#2563eb]" />,
   },
   {
     title: "Now Recruiting Tutors & Officers!",
     description:
       "Love teaching or organizing? We're looking for new tutors and student leaders — apply today!",
-    date: "February 5, 2025",
+    date: "April 1, 2025",
     icon: <Megaphone className="w-6 h-6 text-[#2563eb]" />,
   },
 ]

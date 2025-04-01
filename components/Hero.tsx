@@ -24,7 +24,7 @@ const Header = () => {
               Start Learning
             </a>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc4y_cO4y4v5_MI474o9HFHkreYgK67cPZQO6Ns7b9yj-Z7yw/viewform"
+              href="/join-us"
               target='_blank'
               className="bg-gray-200 text-[#2563eb] px-6 py-3 rounded-full font-semibold hover:bg-gray-300 transition transform hover:scale-105"
             >

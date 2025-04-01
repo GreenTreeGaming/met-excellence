@@ -88,19 +88,19 @@ const Tutors = () => {
         >
           <div>
             <p className="text-4xl font-bold text-[#2563eb]">
-              {inView && <CountUp end={1500} duration={2} />}+
+              {inView && <CountUp end={100} duration={2} />}+
             </p>
             <p className="text-gray-600 mt-2">Students Helped</p>
           </div>
           <div>
             <p className="text-4xl font-bold text-[#2563eb]">
-              {inView && <CountUp end={75} duration={2} />}+
+              {inView && <CountUp end={15} duration={2} />}+
             </p>
             <p className="text-gray-600 mt-2">Tutors Involved</p>
           </div>
           <div>
             <p className="text-4xl font-bold text-[#2563eb]">
-              {inView && <CountUp end={40} duration={2} />}+
+              {inView && <CountUp end={10} duration={2} />}+
             </p>
             <p className="text-gray-600 mt-2">Subjects Offered</p>
           </div>

@@ -30,9 +30,9 @@ const page = () => {
       <div className="bg-[#2563eb] text-white py-12 px-6">
         <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
           {[
-            { stat: "200+", label: "Students Taught" },
-            { stat: "15+", label: "Tournaments Held" },
-            { stat: "5", label: "Skill Levels Offered" },
+            { stat: "50+", label: "Students Taught" },
+            { stat: "5+", label: "Tutors" },
+            { stat: "3", label: "Skill Levels Offered" },
             { stat: "All Ages", label: "Welcomed!" },
           ].map((item, i) => (
             <div
@@ -137,7 +137,7 @@ const page = () => {
       {/* Call to Action */}
       <div className="text-center py-20">
         <a
-          href="https://metexcellence.org/signup-chess"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfsBLjoVsIYgjfD-tdugOPzQY7bH-13Ry4RX-ALVIIvvxcQgQ/viewform"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#2563eb] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-700 transition transform hover:scale-105"
