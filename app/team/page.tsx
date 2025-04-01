@@ -15,122 +15,6 @@ const team: {
   members: TeamMember[]
 }[] = [
   {
-    category: "Board of Directors",
-    members: [
-      {
-        name: "Aaron Zou",
-        role: "President",
-        image: "/team/aaron_zou.webp",
-        email: "mincathepig@gmail.com",
-      },
-      {
-        name: "Eric Yang",
-        role: "Vice President",
-        image: "/team/eric_yang.webp",
-        email: "yangeri001@isd284.com",
-      },
-      {
-        name: "Sarvajith Karun",
-        role: "Chief Technology Officer",
-        image: "/team/sarvajith_karun.jpg",
-        email: "karunsarvajith@gmail.com",
-      },
-      {
-        name: "Anishk Nag",
-        role: "Director of Volunteers",
-        image: "/team/anishk_nag.webp",
-        email: "naganishk000@isd284.com",
-      },
-      {
-        name: "Evan Xiong",
-        role: "Chair",
-        image: "/team/evan_xiong.webp",
-        email: "evanxionga@gmail.com",
-      },
-      {
-        name: "Evan Huss",
-        role: "Director of Marketing",
-        image: "/team/evan_huss.webp",
-        email: "evan.huss00@gmail.com",
-      },
-      {
-        name: "Felix Cheng",
-        role: "Director of Finance",
-        image: "/team/felix_cheng.webp",
-        email: "chengfeel0@gmail.com",
-      },
-      {
-        name: "Kevin Qiu",
-        role: "Program Director",
-        image: "/team/kevin_qiu.webp",
-        email: "kevinhqiu2007@gmail.com",
-      },
-    ],
-  },
-  {
-    category: "Officers",
-    members: [
-      {
-        name: "Shubham Panchal",
-        role: "STEM Officer",
-        image: "/team/shubham_panchal.webp",
-        email: "panchshu000@isd284.com",
-      },
-      {
-        name: "Harry Ding",
-        role: "Marketing Officer",
-        image: "/team/harry_ding.webp",
-        email: "dinghar000@gmail.com",
-      },
-      {
-        name: "Jason Lai",
-        role: "Chinese Officer",
-        image: "/team/jason_lai.webp",
-        email: "laiyij000@isd284.com",
-      },
-    ],
-  },
-  {
-    category: "Other Subjects",
-    members: [
-      {
-        name: "Jason Lai",
-        role: "Chinese Culture Tutor",
-        image: "/team/jason_lai.webp",
-        email: "laiyij000@isd284.com",
-      },
-    ],
-  },
-  {
-    category: "Chess Tutors",
-    members: [
-      {
-        name: "Evan Xiong",
-        role: "Chess Tutor",
-        image: "/team/evan_xiong.webp",
-        email: "evanxionga@gmail.com",
-      },
-      {
-        name: "Eric Yang",
-        role: "Chess Tutor",
-        image: "/team/eric_yang.webp",
-        email: "yangeri001@isd284.com",
-      },
-      {
-        name: "Felix Cheng",
-        role: "Chess Tutor",
-        image: "/team/felix_cheng.webp",
-        email: "chengfeel0@gmail.com",
-      },
-      {
-        name: "Aaron Zou",
-        role: "Chess Tutor",
-        image: "/team/aaron_zou.webp",
-        email: "mincathepig@gmail.com",
-      },
-    ],
-  },
-  {
     category: "STEM Tutors",
     members: [
       {
@@ -180,6 +64,122 @@ const team: {
         role: "UMTYMP Prep Tutor",
         image: "/team/aditya_nair.webp",
         email: "nairadi000@isd284.com",
+      },
+    ],
+  },
+  {
+    category: "Chess Tutors",
+    members: [
+      {
+        name: "Evan Xiong",
+        role: "Chess Tutor",
+        image: "/team/evan_xiong.webp",
+        email: "evanxionga@gmail.com",
+      },
+      {
+        name: "Eric Yang",
+        role: "Chess Tutor",
+        image: "/team/eric_yang.webp",
+        email: "yangeri001@isd284.com",
+      },
+      {
+        name: "Felix Cheng",
+        role: "Chess Tutor",
+        image: "/team/felix_cheng.webp",
+        email: "chengfeel0@gmail.com",
+      },
+      {
+        name: "Aaron Zou",
+        role: "Chess Tutor",
+        image: "/team/aaron_zou.webp",
+        email: "mincathepig@gmail.com",
+      },
+    ],
+  },
+  {
+    category: "Other Subjects",
+    members: [
+      {
+        name: "Jason Lai",
+        role: "Chinese Culture Tutor",
+        image: "/team/jason_lai.webp",
+        email: "laiyij000@isd284.com",
+      },
+    ],
+  },
+  {
+    category: "Officers",
+    members: [
+      {
+        name: "Shubham Panchal",
+        role: "STEM Officer",
+        image: "/team/shubham_panchal.webp",
+        email: "panchshu000@isd284.com",
+      },
+      {
+        name: "Harry Ding",
+        role: "Marketing Officer",
+        image: "/team/harry_ding.webp",
+        email: "dinghar000@gmail.com",
+      },
+      {
+        name: "Jason Lai",
+        role: "Chinese Officer",
+        image: "/team/jason_lai.webp",
+        email: "laiyij000@isd284.com",
+      },
+    ],
+  },
+  {
+    category: "Board of Directors",
+    members: [
+      {
+        name: "Aaron Zou",
+        role: "President",
+        image: "/team/aaron_zou.webp",
+        email: "mincathepig@gmail.com",
+      },
+      {
+        name: "Eric Yang",
+        role: "Vice President",
+        image: "/team/eric_yang.webp",
+        email: "yangeri001@isd284.com",
+      },
+      {
+        name: "Sarvajith Karun",
+        role: "Chief Technology Officer",
+        image: "/team/sarvajith_karun.jpg",
+        email: "karunsarvajith@gmail.com",
+      },
+      {
+        name: "Anishk Nag",
+        role: "Director of Volunteers",
+        image: "/team/anishk_nag.webp",
+        email: "naganishk000@isd284.com",
+      },
+      {
+        name: "Evan Xiong",
+        role: "Chair",
+        image: "/team/evan_xiong.webp",
+        email: "evanxionga@gmail.com",
+      },
+      {
+        name: "Evan Huss",
+        role: "Director of Marketing",
+        image: "/team/evan_huss.webp",
+        email: "evan.huss00@gmail.com",
+      },
+      {
+        name: "Felix Cheng",
+        role: "Director of Finance",
+        image: "/team/felix_cheng.webp",
+        email: "chengfeel0@gmail.com",
+      },
+      {
+        name: "Kevin Qiu",
+        role: "Program Director",
+        image: "/team/kevin_qiu.webp",
+        email: "kevinhqiu2007@gmail.com",
       },
     ],
   },
