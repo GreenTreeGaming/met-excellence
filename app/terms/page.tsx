@@ -7,9 +7,20 @@ const page = () => {
         <h1 className="text-4xl md:text-5xl font-bold text-[#2563eb] mb-6">
           Terms and Conditions
         </h1>
-        <p className="text-gray-600 mb-12">Effective Date: February 1, 2025</p>
+        <p className="text-gray-600 mb-4">Effective Date: February 1, 2025</p>
+
+        {/* Disclaimer at Top */}
+        <div className="bg-[#f9fcff] border border-gray-200 p-4 rounded-lg mb-12 text-sm sm:text-base text-gray-700 leading-relaxed">
+          <p className="mb-3">
+            By signing up for a class, I/we/our family hereby release, waive, discharge, and forever hold harmless the organizations including institutions and individuals, its staff, promoters, and sponsors, from any loss or damage, and any claim of damages resulting from our participation in this program on account of any injury to my person, or property, whether caused by negligence or otherwise.
+          </p>
+          <p>
+            I understand and agree that photographs in the possession of the releases shall become the property of the organization. On behalf of myself and my child, I give permission to use photography, images, video and audio taken of us during the events hosted by MET Excellence. I consent to the use of the photographs, videos, or recordings of us for advertising, promotional, or related purposes, and waive all rights to compensation and other rights which may arise as a result.
+          </p>
+        </div>
 
         <div className="space-y-10 text-gray-700 leading-relaxed text-sm sm:text-base">
+          {/* Remaining Terms */}
           <div>
             <h2 className="text-xl font-semibold text-[#2563eb] mb-2">1. Acceptance of Terms</h2>
             <p>
@@ -19,7 +30,6 @@ const page = () => {
 
           <div>
             <h2 className="text-xl font-semibold text-[#2563eb] mb-2">2. Use of the Website</h2>
-
             <h3 className="font-medium mt-4 mb-1">2.1 User Conduct</h3>
             <p>You agree to use METExcellence.org only for lawful purposes and in a manner that does not infringe upon or restrict others&apos; use and enjoyment of the website. Prohibited behaviors include:</p>
             <ul className="list-disc list-inside ml-4 mt-2 space-y-1">
