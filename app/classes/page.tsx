@@ -42,6 +42,16 @@ const classes: {
     learnMoreLink: 'https://metexcellence.org/umtymp',
     signUpLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfHjGPIKKxwpz0A7kLa53gDLWxbylUiJ6n8fpWfCW0Wx0WXkA/viewform',
   },
+  {
+    title: 'Chinese Culture',
+    tutor: 'Jason Lai',
+    level: 'Anyone!',
+    description: 'Explore the rich traditions, history, and customs of Chinese culture in this engaging introduction with Jason Lai.',
+    image: 'chinese_culture.jpg',
+    status: 'online',
+    learnMoreLink: '/',
+    signUpLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfJX6x0bpBIr7ZnCcofOa4NMJrwMyW7HKMcmxTG9WlU-Kng2A/viewform',
+  },
 
   {
     title: 'Intro to Chemistry',
@@ -155,7 +165,7 @@ const page = () => {
 
                   {/* CTA Buttons */}
                   <div className="mt-auto flex space-x-3 pt-4">
-                    {cls.title !== "Intro to Python" && (
+                    {cls.title !== "Intro to Python" && cls.title !== "Chinese Culture" && (
                       <a
                         href={cls.status === "coming-soon" ? "#" : cls.learnMoreLink}
                         target="_blank"
