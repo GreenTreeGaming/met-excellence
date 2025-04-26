@@ -93,6 +93,7 @@ const Footer = () => {
         >
           Sarvajith Karun
         </a>
+        {' '}and{' '} Mohan Atkuri
       </div>
     </footer>
   )

@@ -48,7 +48,7 @@ const classes: {
     level: 'Anyone!',
     description: 'Explore the rich traditions, history, and customs of Chinese culture in this engaging introduction with Jason Lai.',
     image: 'chinese_culture.jpg',
-    status: 'online',
+    status: 'in-person',
     learnMoreLink: '/',
     signUpLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfJX6x0bpBIr7ZnCcofOa4NMJrwMyW7HKMcmxTG9WlU-Kng2A/viewform',
   },
