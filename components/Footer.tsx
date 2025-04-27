@@ -93,7 +93,15 @@ const Footer = () => {
         >
           Sarvajith Karun
         </a>
-        {' '}and{' '} Mohan Atkuri
+        {' '}and{' '}
+        <a
+          href="https://github.com/MohanCodes"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-white"
+        >
+          Mohan Atkuri
+        </a>
       </div>
     </footer>
   )
