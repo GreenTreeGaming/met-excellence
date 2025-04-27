@@ -117,6 +117,12 @@ const team: {
         email: "panchshu000@isd284.com",
       },
       {
+        name: "Sarvajith Karun",
+        role: "Chief Technology Officer",
+        image: "/team/sarvajith_karun.jpg",
+        email: "karunsarvajith@gmail.com",
+      },
+      {
         name: "Harry Ding",
         role: "Marketing Officer",
         image: "/team/harry_ding.webp",
@@ -150,12 +156,6 @@ const team: {
         role: "Vice President",
         image: "/team/eric_yang.webp",
         email: "yangeri001@isd284.com",
-      },
-      {
-        name: "Sarvajith Karun",
-        role: "Chief Technology Officer",
-        image: "/team/sarvajith_karun.jpg",
-        email: "karunsarvajith@gmail.com",
       },
       {
         name: "Anishk Nag",
