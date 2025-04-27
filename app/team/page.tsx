@@ -118,7 +118,7 @@ const team: {
       },
       {
         name: "Sarvajith Karun",
-        role: "Chief Technology Officer",
+        role: "Technology Freelancer",
         image: "/team/sarvajith_karun.jpg",
         email: "karunsarvajith@gmail.com",
       },
