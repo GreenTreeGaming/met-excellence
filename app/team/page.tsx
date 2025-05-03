@@ -243,7 +243,7 @@ const team: {
       },
       {
         name: "Mohan Atkuri",
-        role: "Technology Officer",
+        role: "Technology Director",
         image: "/team/mohan_atkuri.webp",
         email: "atkurmoh000@isd284.com",
       },
