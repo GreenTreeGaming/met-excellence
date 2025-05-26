@@ -68,7 +68,7 @@ const team: {
       {
         name: "Rohan Atturu",
         role: "Physics Tutor",
-        image: "/team/rohan_atturu.jpg",
+        image: "/rohan_ataru.png",
         email: "rohan.atturu@gmail.com",
       },
       {
@@ -80,7 +80,7 @@ const team: {
       {
         name: "Jatin Takkoli",
         role: "UMTYMP and Physics Tutor",
-        image: "/team/Jatin.jpeg",
+        image: "/jatin_takkoli.png",
         email: "",
       },
       {

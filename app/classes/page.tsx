@@ -33,16 +33,6 @@ const classes: {
     signUpLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfsBLjoVsIYgjfD-tdugOPzQY7bH-13Ry4RX-ALVIIvvxcQgQ/viewform',
   },
   {
-    title: 'Intro to Python',
-    tutor: 'Aaron Zou and Mohan Atkuri',
-    level: 'Beginner',
-    description: 'This is a beginner level class on Python, the programming language. All ages are welcome, and no prior programming experience is required. Get familiar with Python syntax and computer science ideas. We will build a mini-project using Python towards the end of the course and give real-world insight into the usefulness of computer science!',
-    image: 'python.webp',
-    status: 'online',
-    learnMoreLink: 'https://metexcellence.org/umtymp',
-    signUpLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfHjGPIKKxwpz0A7kLa53gDLWxbylUiJ6n8fpWfCW0Wx0WXkA/viewform',
-  },
-  {
     title: 'Chinese Culture',
     tutor: 'Jason Lai',
     level: 'Anyone!',
@@ -52,23 +42,43 @@ const classes: {
     learnMoreLink: '/',
     signUpLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfJX6x0bpBIr7ZnCcofOa4NMJrwMyW7HKMcmxTG9WlU-Kng2A/viewform',
   },
+  {
+    "title": "Indian Culture",
+    "tutor": "Aryan Maheshwari and Rishi Illuri",
+    "level": "Anyone!",
+    "description": "Discover the vibrant traditions, diverse history, and rich customs of Indian culture in this engaging introduction with Aryan Maheshwari and Rishi Illuri.",
+    "image": "/indian_image.jpeg",
+    "status": "online",
+    "learnMoreLink": "/",
+    "signUpLink": "https://forms.gle/7npw9JU4aJfVJVHd9"
+  },
+  {
+    title: 'AMC 8 Prep',
+    tutor: 'Ryan Niu',
+    level: 'Advanced',
+    description: 'This rigorous 16-week course prepares you for the AMC 8 next fall. You can sign up for the class even if it is still going on; we cover different topics every week. This class will cover test strategies, number theory, geometry, combinatorics and probability, and algebra. Other topics will also be covered. We will go over previous AMC 8 tests.',
+    image: 'amc8.webp',
+    status: 'online',
+    learnMoreLink: 'https://metexcellence.org/umtymp',
+    signUpLink: 'https://forms.gle/qk9mqyuteyQK1ZiM8',
+  },
 
+  {
+    title: 'Intro to Python',
+    tutor: 'Aaron Zou and Mohan Atkuri',
+    level: 'Beginner',
+    description: 'This is a beginner level class on Python, the programming language. All ages are welcome, and no prior programming experience is required. Get familiar with Python syntax and computer science ideas. We will build a mini-project using Python towards the end of the course and give real-world insight into the usefulness of computer science!',
+    image: 'python.webp',
+    status: 'coming-soon',
+    learnMoreLink: 'https://metexcellence.org/umtymp',
+    signUpLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfHjGPIKKxwpz0A7kLa53gDLWxbylUiJ6n8fpWfCW0Wx0WXkA/viewform',
+  },
   {
     title: 'Intro to Chemistry',
     tutor: 'Anishk Nag',
     level: 'Intermediate',
     description: 'This course is an introductory course to basic chemistry principles and ideas. All ages are welcome, we will be working towards building understanding of chemistry and the ideas that shape our world.',
     image: 'chemistry.webp',
-    status: 'coming-soon',
-    learnMoreLink: 'https://metexcellence.org/umtymp',
-    signUpLink: 'https://metexcellence.org/signup-umtymp',
-  },
-  {
-    title: 'AMC 8 Prep',
-    tutor: 'Kevin Qiu',
-    level: 'Advanced',
-    description: 'This rigorous 16-week course prepares you for the AMC 8 next fall. You can sign up for the class even if it is still going on; we cover different topics every week. This class will cover test strategies, number theory, geometry, combinatorics and probability, and algebra. Other topics will also be covered. We will go over previous AMC 8 tests.',
-    image: 'amc8.webp',
     status: 'coming-soon',
     learnMoreLink: 'https://metexcellence.org/umtymp',
     signUpLink: 'https://metexcellence.org/signup-umtymp',
@@ -165,7 +175,10 @@ const page = () => {
 
                   {/* CTA Buttons */}
                   <div className="mt-auto flex space-x-3 pt-4">
-                    {cls.title !== "Intro to Python" && cls.title !== "Chinese Culture" && (
+                  {cls.title !== "Intro to Python" &&
+                    cls.title !== "Chinese Culture" &&
+                    cls.title !== "Indian Culture" &&
+                    cls.title !== "AMC 8 Prep" && (
                       <a
                         href={cls.status === "coming-soon" ? "#" : cls.learnMoreLink}
                         target="_blank"
