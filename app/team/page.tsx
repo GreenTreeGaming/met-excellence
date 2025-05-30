@@ -59,12 +59,7 @@ const team: {
         image: "/team/eric_yang.webp",
         email: "yangeri001@isd284.com",
       },
-      {
-        name: "Aditya Nair",
-        role: "UMTYMP Prep Tutor",
-        image: "/team/aditya_nair.webp",
-        email: "nairadi000@isd284.com",
-      },
+        // nigg
       {
         name: "Rohan Atturu",
         role: "Physics Tutor",
@@ -193,6 +188,12 @@ const team: {
         role: "Chinese Officer",
         image: "/team/jason_lai.webp",
         email: "laiyij000@isd284.com",
+      },
+      {
+        name: "Aditya Nair",
+        role: "UMTYMP Director",
+        image: "/team/aditya_nair.webp",
+        email: "nairadi000@isd284.com",
       },
     ],
   },
