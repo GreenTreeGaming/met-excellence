@@ -108,6 +108,12 @@ const team: {
         image: "/team/luyao_yang.jpeg",
         email: "yangluy000@isd284.com",
       },
+      {
+        name: "Samhita Jasthi",
+        role: "UMTMYP/Chemistry tutor",
+        image: "/team/sammy.jpg",
+        email: "samhita.jasthi@gmail.com",
+      },
     ],
   },
   {
